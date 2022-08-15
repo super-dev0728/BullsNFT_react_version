@@ -1,0 +1,40 @@
+.nft-team-wrapper {
+    position: relative;
+    z-index: 5;
+    background-color: white;
+}
+
+.title-bar {
+    height: 2px;
+    background-color: black;
+    width: 50px;
+    margin: auto 5px;
+}
+
+.nft-team-card {
+    background-color: black;
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.nft-team-card-header {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 238, 255);
+}
+
+.nft-team-card-footer a {
+    color: white;
+    transition: 300ms all ease;
+    -webkit-transition: 300ms all ease;
+    -moz-transition: 300ms all ease;
+    -ms-transition: 300ms all ease;
+    -o-transition: 300ms all ease;
+}
+
+.nft-team-card-footer a:hover {
+    color: #B24BF3;
+
+}

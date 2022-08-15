@@ -1,0 +1,192 @@
+.time-line-wrapper {
+    background-color: black;
+    color: white;
+    z-index: 5;
+    position: relative;
+
+
+}
+
+.title-wrapper {
+    z-index: 20;
+    position: relative;
+    background-color: black;
+}
+
+
+
+.timeline_progress-bar {
+    position: fixed;
+    left: auto;
+    top: 0px;
+    right: auto;
+    bottom: 50vh;
+    z-index: -2;
+    width: 3px;
+    height: 50vh;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(#B24BF3),
+            to(#B24BF3));
+    background-image: linear-gradient(180deg, #B24BF3, #B24BF3);
+}
+
+.timeline_component {
+    position: relative;
+    z-index: 15;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.timeline_date-text {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50vh;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}
+
+.highlight-span {
+    color: #B24BF3;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.highlight-span1 {
+    color: #B24BF3;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.timeline_centre {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.timeline_left {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    text-align: right;
+}
+
+.timeline_text {
+    position: relative;
+    font-size: 0.875rem;
+}
+
+.timeline_progress {
+    position: absolute;
+    z-index: -1;
+    width: 3px;
+    height: 100%;
+    background-color: #414141;
+}
+
+.timeline_circle {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50vh;
+    width: 15px;
+    height: 15px;
+    max-height: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    min-width: 15px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.timeline_item {
+    position: relative;
+    z-index: 2;
+    display: -ms-grid;
+    display: grid;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr 180px 1fr;
+    grid-template-columns: 1fr 180px 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.black-spacer {
+    position: relative;
+    z-index: 30;
+    height: 6rem;
+    background-color: #141414;
+}
+
+@media screen and (max-width: 767px) {
+    .timeline_date-text {
+        margin-bottom: 24px;
+        font-size: 2rem;
+    }
+
+
+
+    .timeline_centre {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .timeline_left {
+        display: none;
+
+    }
+
+    .timeline_text {
+        font-size: 1.3rem;
+    }
+
+
+    .timeline_progress {
+        left: 6px;
+    }
+
+    .timeline_item {
+        width: 100%;
+
+
+    }
+
+}

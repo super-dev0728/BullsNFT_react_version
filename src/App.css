@@ -1,0 +1,86 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.app-wrapper {
+  overflow-x: hidden;
+}
+
+/* Loader start */
+#preloader {
+  width: 100%;
+  height: 100vh;
+  background: black url(../public/images/load-giff.gif) no-repeat center center;
+  z-index: 999;
+  position: fixed;
+}
+
+/* Loader end */
+
+/* ScrollBar Start */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+
+
+}
+
+
+/* ScrollBar End */
+
+/* Socail Medias Start*/
+
+.social-medias {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 60%;
+  padding: 0 10px;
+  z-index: 99;
+}
+
+.social-medias a {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.5rem;
+  transition: 300ms all ease;
+  -webkit-transition: 300ms all ease;
+  -moz-transition: 300ms all ease;
+  -ms-transition: 300ms all ease;
+  -o-transition: 300ms all ease;
+}
+
+.social-medias a:hover {
+  color: #B24BF3;
+}
+
+/* Socail Medias End*/
+
+/* Footer Start */
+.main-footer {
+  background-color: black;
+  border-top: 1px solid white;
+  color: white;
+}
+
+/* Footer End */

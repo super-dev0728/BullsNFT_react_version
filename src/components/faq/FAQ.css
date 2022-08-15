@@ -1,0 +1,40 @@
+.faq-wrapper {
+    position: relative;
+    background-color: black;
+    z-index: 10;
+}
+
+.accordion-item {
+    background-color: black !important;
+    color: white;
+}
+
+.accordion-button {
+    background-color: black;
+    box-shadow: none !important;
+    color: white;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    background-color: black !important;
+    color: rgb(178, 75, 243) !important;
+
+}
+
+.accordion-button::after {
+    background-image: url(../../../public/images/plus.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../../public/images/minus.png);
+}
+
+.footer-info {
+    color: white;
+}
+
+.dc-link {
+    color: rgb(178, 75, 243);
+}
