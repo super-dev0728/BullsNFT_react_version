@@ -16,7 +16,7 @@ const options = {
             items: 1
         },
         600: {
-            items: 2
+            items: 4
         },
         900: {
             items: 3

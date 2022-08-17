@@ -7,14 +7,14 @@ import Roll from 'react-reveal/Roll';
 const FAQ = () => {
     return (
         <section id="faq" className='faq-wrapper py-5 '>
-            <div className='d-flex mb-3 ms-5 ps-3 text-white'>
+            <div className='d-flex mb-3 ms-5 ps-4 text-white'>
                 <Slide left>  <div >07 </div></Slide>
                 <Roll left><div className='title-bar-black'></div></Roll>
                 <Slide right> <div>FAQ</div></Slide>
             </div>
-            <h1 className='text-white ms-5 ps-3'>BULL'S LODGE NFT</h1>
-            <div className="accordion w-75 mx-auto mt-5 " id="FAQ">
-                <div className="accordion-item ">
+            <h1 className='text-white ms-5 ps-4 faq-title'>BULL'S LODGE NFT</h1>
+            <div className="accordion w-75 mx-auto mt-5  " id="FAQ">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingOne">
                         <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             WHAT IS BULL’S LODGE NFT PROJECT'S VISION AND MISSION?
@@ -26,7 +26,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingTwo">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             WHAT IS BULL’S LODGE NFT AND HOW CAN I BUY?
@@ -39,7 +39,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingThree">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             WAIT? YOU GUYS MENTIONED “LODGE”, WHAT DO YOU MEAN?
@@ -51,7 +51,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingFour">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             WHAT IS THE MINTING PRICE AND MAX SUPPLY?
@@ -76,7 +76,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingSeven">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             WHY CREATE A COMMUNITY WALLET IF YOU ARE GOING TO CONTROL EVERYTHING?
@@ -87,7 +87,8 @@ const FAQ = () => {
                             In early phase we are using our initiative to develop our Lodge. Once minting begins, we are going to create DAO that is completely driven by community. Community Wallet will be used for financial aspects of DAO.
                         </div>
                     </div>
-                </div> <div className="accordion-item">
+                </div>
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingEight">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                             WHAT ARE 1000 RESERVED BULLS?
@@ -99,7 +100,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingNine">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             WHAT BENEFITS DO I GET BY HOLDING BULL'S LODGE NFT?
@@ -118,7 +119,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingTen">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             WHEN CAN I BEGIN MINTING?
@@ -130,7 +131,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingEleven">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                             WHERE CAN I TRADE MY BULLS?
@@ -143,7 +144,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingTwelwe">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                             HOW MANY BULL'S LODGE NFT'S CAN I PURCHASE?
@@ -155,7 +156,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingThirteen">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                             WHAT WILL HAPPEN IF WHALES OWN HUGE PROPORTION OF NFTS?
@@ -168,7 +169,7 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item border-0 ">
                     <h2 className="accordion-header" id="headingFourTeen">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                             WHO IS BEHIND BULL’S LODGE NFT PROJECT?
@@ -183,7 +184,7 @@ const FAQ = () => {
                     </div>
                 </div>
             </div>
-            <h6 className='footer-info w-75 mx-auto mt-5 text-center' >If you can’t find the information you seek here, don’t hesitate to reach out to our super-friendly support team in our Official Discord <a className='dc-link' href="https://discord.gg/VxkC8zmbWP" target="__blank">[here]</a> .</h6>
+            <h6 className='footer-info w-75 mx-auto mt-5 text-center' >If you can’t find the information you seek here, don’t hesitate to reach out to our super-friendly support team in our Official Discord <a className='dc-link text-decoration-none' href="https://discord.gg/VxkC8zmbWP" target="__blank">[here]</a> .</h6>
         </section>
     )
 }

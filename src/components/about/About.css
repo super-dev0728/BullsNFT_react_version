@@ -1,6 +1,6 @@
 .about-wrapper {
     position: relative;
     z-index: 15;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: white;
 }

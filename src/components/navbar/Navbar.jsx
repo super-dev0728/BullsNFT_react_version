@@ -39,8 +39,8 @@ const Navbar = () => {
                                     className="nav-link d-inline active btn-close-canvas banner"
                                     aria-current="page"
                                     href="#banner"
-                                >Home</a
-                                >
+                                >Home
+                                </a>
                             </li>
                             <li className="nav-item mx-2 mb-2 mb-lg-0">
                                 <a
@@ -78,9 +78,13 @@ const Navbar = () => {
                                 </a>
                             </li>
                         </ul>
-                        <div className="nav-btn-box">
-                            <a href="https://discord.gg/VxkC8zmbWP" target="_blank"> Join Discord </a>
-                        </div>
+                        <a href="https://discord.gg/VxkC8zmbWP" target="_blank" class="custon-buttom d-inline-block">
+                            <div style={{ color: " #B24BF3" }} class="custom-button-text">JOIN DISCORD</div>
+                            <div class="line-vertical-top"></div>
+                            <div class="line-horizontal-top"></div>
+                            <div class="line-vertical-bottom"></div>
+                            <div class="line-horizontal-bottom"></div>
+                        </a>
                     </div>
                 </div>
             </nav>

@@ -1,5 +1,5 @@
 .time-line-wrapper {
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: white;
     z-index: 5;
     position: relative;
@@ -10,7 +10,7 @@
 .title-wrapper {
     z-index: 20;
     position: relative;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 }
 
 
@@ -151,7 +151,8 @@
     position: relative;
     z-index: 30;
     height: 6rem;
-    background-color: #141414;
+    background-color: rgb(20, 20, 20);
+
 }
 
 @media screen and (max-width: 767px) {
@@ -174,8 +175,12 @@
 
     }
 
+
     .timeline_text {
         font-size: 1.3rem;
+        padding: 0;
+        width: 300px;
+        margin-left: -50px;
     }
 
 

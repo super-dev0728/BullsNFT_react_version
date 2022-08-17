@@ -6,6 +6,10 @@
 
 }
 
+.welcome-title {
+    font-size: 3rem;
+}
+
 .are-you-bullish-content-image-middle {
     position: relative;
     top: 50px;
@@ -30,4 +34,13 @@
 .welcome-image.second {
     width: 33.33%;
     margin-top: 5rem;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .welcome-title {
+        font-size: 2rem;
+
+    }
+
 }

@@ -22,7 +22,7 @@ const options = {
             items: 2
         },
         900: {
-            items: 3
+            items: 4
         }
 
 
@@ -31,15 +31,16 @@ const options = {
 const NftTeam = () => {
     return (
         <section id="team" className='nft-team-wrapper py-5'>
-            <div className='ps-lg-5 ms-3 mb-5'>
+            <div className='ps-3 ps-lg-4 ms-lg-5 '>
                 <div className='d-flex'>
                     <Slide left> <div>06</div></Slide>
                     <Roll left><div className='title-bar'></div></Roll>
                     <Slide right><div>  Team</div></Slide>
                 </div>
-                <h1 className='fw-bold'>BULL'S LODGE NFT TEAM</h1>
-                <p className='w -lg-50'>Project welcomes members around the world to share <br /> in knowledge about the ever-evolving space of NFTs.</p>
+
             </div>
+            <h1 className='fw-bold ps-3 ps-lg-4 ms-lg-5'>BULL'S LODGE NFT TEAM</h1>
+            <p className='w-lg-50 ps-3 ps-lg-4 ms-lg-5'>Project welcomes members around the world to share <br /> in knowledge about the ever-evolving space of NFTs.</p>
             <OwlCarousel
 
 

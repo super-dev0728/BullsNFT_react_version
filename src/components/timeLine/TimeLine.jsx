@@ -53,8 +53,8 @@ const TimeLine = () => {
                                 <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4435-22f433cf" className="timeline_centre">
                                     <div className="timeline_circle"></div>
                                 </div>
-                                <div className="timeline_right">
-                                    <div className="margin-top margin-small">
+                                <div className="timeline_right ">
+                                    <div className="margin-top margin-small ">
                                         <div className="timeline_text animated-p"><span className="highlight-span">35%</span>Preparations of game development will be initialized. Additionally we have a raffle for our members to win an Island tour to show our Lodge’s place and a special vacation for bulls.<br /><br /></div>
                                     </div>
                                 </div>

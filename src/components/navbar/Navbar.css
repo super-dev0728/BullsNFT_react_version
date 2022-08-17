@@ -5,7 +5,8 @@
     top: 0;
     left: 0;
     z-index: 500;
-    padding: 20px 0;
+    padding: 20px 20px 20px 0;
+    background-color: rgb(20, 20, 20) !important;
 }
 
 
@@ -17,6 +18,7 @@
     -ms-transition: 300ms all ease;
     -o-transition: 300ms all ease;
     position: relative;
+    color: white !important;
 }
 
 .btn-close-canvas:before {
@@ -55,47 +57,132 @@
 }
 
 
-.nav-btn-box a {
-    border: none;
-    background-color: offwhite;
-    font-size: 16px;
+.custon-buttom {
+    text-decoration: none;
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 20px;
+    bottom: auto;
+    z-index: 10;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.75rem 1.25rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsla(0, 0%, 99.6%, 0.2);
     background-color: transparent;
-    text-transform: capitalize;
-    cursor: pointer;
-    transform: all 0.3s;
-    position: relative;
-    color: #B24BF3;
+    color: #fefefe;
+    line-height: 1;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+}
+
+.custon-buttom:hover .line-vertical-top {
+    top: 30px;
+}
+
+.custon-buttom:hover .line-horizontal-top {
+    left: 135px;
+}
+
+.custon-buttom:hover .line-vertical-bottom {
+    bottom: 30px;
+}
+
+.custon-buttom:hover .line-horizontal-bottom {
+    right: 135px;
+}
+
+.custom-button-text {
+    color: #B24BF3 !important;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
     text-decoration: none;
 }
 
-.nav-btn-box a:before {
-    content: "";
+.line-vertical-top {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    top: -5px;
-    left: -5px;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    transition: all 0.25s;
+    left: -1px;
+    top: -1px;
+    right: auto;
+    bottom: auto;
+    width: 1px;
+    height: 15px;
+    background-color: #fefefe;
+    transition: 200ms all linear;
+    -webkit-transition: 200ms all linear;
+    -moz-transition: 200ms all linear;
+    -ms-transition: 200ms all linear;
+    -o-transition: 200ms all linear;
 }
 
-.nav-btn-box a:hover:before,
-.nav-btn-box a:hover:after {
-    width: 111%;
-    height: 140%;
+.line-horizontal-top {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    right: auto;
+    bottom: auto;
+    width: 15px;
+    height: 1px;
+    background-color: #fefefe;
+    transition: 200ms all linear;
+    -webkit-transition: 200ms all linear;
+    -moz-transition: 200ms all linear;
+    -ms-transition: 200ms all linear;
+    -o-transition: 200ms all linear;
 }
 
-.nav-btn-box a:after {
-    content: "";
+.line-vertical-bottom {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    bottom: -5px;
-    right: -5px;
-    border-bottom: 2px solid white;
-    border-right: 2px solid white;
-    transition: all 0.30s;
+    left: auto;
+    top: auto;
+    right: -1px;
+    bottom: -1px;
+    width: 1px;
+    height: 15px;
+    background-color: #fefefe;
+    transition: 200ms all linear;
+    -webkit-transition: 200ms all linear;
+    -moz-transition: 200ms all linear;
+    -ms-transition: 200ms all linear;
+    -o-transition: 200ms all linear;
+}
+
+.line-horizontal-bottom {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -1px;
+    bottom: -1px;
+    width: 15px;
+    height: 1px;
+    background-color: #fefefe;
+    transition: 200ms all linear;
+    -webkit-transition: 200ms all linear;
+    -moz-transition: 200ms all linear;
+    -ms-transition: 200ms all linear;
+    -o-transition: 200ms all linear;
+}
+
+@media only screen and (max-width: 992px) {
+    .custon-buttom {
+        position: relative;
+        left: 10px;
+    }
 }
 
 /* Navbar End */
