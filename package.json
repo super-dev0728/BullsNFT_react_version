@@ -1,5 +1,6 @@
 {
   "name": "bull-nft-react",
+  "homepage": "https://bullslodgenft.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
